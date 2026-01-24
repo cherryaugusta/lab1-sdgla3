@@ -73,6 +73,5 @@ ________________________________________
 Purpose
 This project is created for educational and demonstration purposes as part of an individual lab assignment. It reflects early-stage learning in front-end web development and version control.
 ________________________________________
-© License
 This project is open for learning and personal use.
 © 2026 Cherry Augusta
