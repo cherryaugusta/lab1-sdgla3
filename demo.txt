@@ -1,1 +1,1 @@
-This is just a demo txt file for a project showcase by Cherry Augusta
+This is just a demo txt file for a project showcase by Cherry Augusta. This is a new version to be added to the new branch "cherry-augusta"
