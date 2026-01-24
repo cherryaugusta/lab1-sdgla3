@@ -70,8 +70,9 @@ To view the project locally:
 3.	cd about-me-webpage
 4.	Open index.html in any modern web browser.
 ________________________________________
-Purpose
+## 🎯 Purpose
 This project is created for educational and demonstration purposes as part of an individual lab assignment. It reflects early-stage learning in front-end web development and version control.
 ________________________________________
+## © Licence
 This project is open for learning and personal use.
 © 2026 Cherry Augusta
