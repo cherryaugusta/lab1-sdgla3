@@ -65,7 +65,7 @@ To view the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/about-me-webpage.git
+   git clone https://github.com/cherryaugusta/lab1-sdgla3.git
 2.	Navigate to the project folder:
 3.	cd about-me-webpage
 4.	Open index.html in any modern web browser.
