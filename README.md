@@ -5,7 +5,7 @@ This project serves as an introductory individual lab exercise demonstrating fou
 
 ---
 
-## 📄 Project Overview
+## Project Overview
 
 This project is a static webpage that introduces the author, highlights personal interests, and applies basic styling for readability and layout. It is designed for learning purposes and showcases:
 
@@ -16,7 +16,7 @@ This project is a static webpage that introduces the author, highlights personal
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ├── index.html
 ├── style.css
@@ -28,7 +28,7 @@ This project is a static webpage that introduces the author, highlights personal
 
 ---
 
-## ✨ Features
+## Features
 
 - Responsive and minimal layout
 - Semantic HTML5 elements (`header`, `main`, `section`, `footer`)
@@ -37,7 +37,7 @@ This project is a static webpage that introduces the author, highlights personal
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5**
 - **CSS3**
@@ -46,7 +46,7 @@ This project is a static webpage that introduces the author, highlights personal
 
 ---
 
-## 📚 Interests Highlighted
+## Interests Highlighted
 
 - Software Development  
 - HTML & CSS  
@@ -59,7 +59,7 @@ This project is a static webpage that introduces the author, highlights personal
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To view the project locally:
 
@@ -70,7 +70,7 @@ To view the project locally:
 3.	cd about-me-webpage
 4.	Open index.html in any modern web browser.
 ________________________________________
-🎯 Purpose
+Purpose
 This project is created for educational and demonstration purposes as part of an individual lab assignment. It reflects early-stage learning in front-end web development and version control.
 ________________________________________
 © License
