@@ -23,7 +23,7 @@ The project reflects a "data-intelligent" approach, highlighting both front-end 
 
 ```
 basic-portfolio/
-├── aboutme.html      # Main entry point with semantic structure and portfolio content
+├── index.html      # Main entry point with semantic structure and portfolio content
 ├── style.css         # Design system: responsive Grid/Flex logic & variables
 ├── README.md         # Documentation and technical overview
 └── LICENSE           # MIT License for the project
