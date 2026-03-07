@@ -140,7 +140,7 @@ Highlights:
 ## Additional Public Profiles
 
 - [LinkedIn](https://www.linkedin.com/in/cherry-augusta-3957a916)
-- [GitHub Portfolio Repository](https://github.com/cherryaugusta/portfolio)
+- [GitHub Portfolio Repository](https://github.com/cherryaugusta/developer-portfolio-profile)
 - [Sololearn](https://www.sololearn.com/en/profile/312490)
 - [Tableau Public](https://public.tableau.com/app/profile/cherry.augusta/vizzes)
 - [Coddy](https://coddy.tech/user/KifgzD9CRjSINF0zRysjEelv3Vp1)
