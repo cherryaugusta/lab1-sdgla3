@@ -18,10 +18,10 @@ It also demonstrates practical skills in **semantic HTML, responsive CSS, access
 ## Live Repository and Site
 
 ### CV repository
-[https://github.com/cherryaugusta/lab1-sdgla3](https://github.com/cherryaugusta/lab1-sdgla3)
+[https://github.com/cherryaugusta/developer-portfolio-profile](https://github.com/cherryaugusta/developer-portfolio-profile)
 
 ### GitHub Pages site
-[https://cherryaugusta.github.io/lab1-sdgla3/](https://cherryaugusta.github.io/lab1-sdgla3/)
+[https://cherryaugusta.github.io/lab1-sdgla3/](https://cherryaugusta.github.io/developer-portfolio-profile/)
 
 ---
 
