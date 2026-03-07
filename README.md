@@ -21,7 +21,7 @@ It also demonstrates practical skills in **semantic HTML, responsive CSS, access
 [https://github.com/cherryaugusta/developer-portfolio-profile](https://github.com/cherryaugusta/developer-portfolio-profile)
 
 ### GitHub Pages site
-[https://cherryaugusta.github.io/lab1-sdgla3/](https://cherryaugusta.github.io/developer-portfolio-profile/)
+[https://cherryaugusta.github.io/developer-portfolio-profile/](https://cherryaugusta.github.io/developer-portfolio-profile/)
 
 ---
 
