@@ -288,6 +288,7 @@ hr{
 .hero-aside{
   display:grid;
   gap:1rem;
+  align-content:start;
 }
 
 .eyebrow,
@@ -368,9 +369,13 @@ hr{
   max-width:720px;
 }
 
+.profile-card-compact{
+  padding:.85rem;
+}
+
 .profile-photo{
   width:100%;
-  aspect-ratio:18 / 9;
+  aspect-ratio:21 / 8;
   object-fit:cover;
   object-position:center 18%;
   border-radius:18px;
@@ -408,6 +413,10 @@ hr{
   box-shadow:var(--shadow);
   backdrop-filter:blur(10px);
   -webkit-backdrop-filter:blur(10px);
+}
+
+.hero-panel-inline{
+  margin-top:1.4rem;
 }
 
 .hero-panel h2{
@@ -987,7 +996,7 @@ hr{
   }
 
   .profile-photo{
-    aspect-ratio:16 / 9;
+    aspect-ratio:16 / 10;
   }
 
   .project-list-page .project-image-wrap,
