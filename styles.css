@@ -286,12 +286,22 @@ hr{
 
 .hero-copy{
   max-width:760px;
+  color:var(--hero-text-soft);
 }
 
 .hero-aside{
   display:grid;
   gap:1rem;
   align-content:start;
+}
+
+.hero-detail-grid{
+  grid-column:1 / -1;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1.25rem;
+  align-items:stretch;
+  margin-top:1.45rem;
 }
 
 .eyebrow,
@@ -378,7 +388,7 @@ hr{
 
 .profile-photo{
   width:100%;
-  height:clamp(220px, 24vw, 290px);
+  height:clamp(310px, 31vw, 390px);
   object-fit:cover;
   object-position:center 18%;
   border-radius:18px;
@@ -425,16 +435,38 @@ hr{
 .hero-panel h2{
   color:var(--hero-text);
   font-size:1.35rem;
+  margin-bottom:.8rem;
 }
 
 .hero-summary-panel{
-  margin-top:1rem;
+  margin-top:0;
 }
 
 .hero-summary-text{
   color:var(--hero-text-soft);
   margin:0;
   max-width:72ch;
+}
+
+.hero .hero-copy p,
+.hero .hero-copy li,
+.hero .hero-panel p,
+.hero .hero-panel li,
+.hero .hero-panel span,
+.hero .hero-aside figcaption span{
+  color:var(--hero-text-soft);
+}
+
+.hero .hero-copy .eyebrow,
+.hero .hero-panel .panel-label{
+  color:var(--hero-text-muted);
+}
+
+.hero .hero-copy h1,
+.hero .hero-panel h2,
+.hero .metric strong,
+.hero .tag-list li{
+  color:var(--hero-text);
 }
 
 .tag-list{
@@ -868,7 +900,7 @@ hr{
   }
 
   .profile-photo{
-    height:clamp(210px, 28vw, 270px);
+    height:clamp(290px, 34vw, 360px);
   }
 }
 
@@ -882,6 +914,10 @@ hr{
   .cv-layout,
   .about-grid,
   .footer-wrap{
+    grid-template-columns:1fr;
+  }
+
+  .hero-detail-grid{
     grid-template-columns:1fr;
   }
 
@@ -984,7 +1020,7 @@ hr{
   }
 
   .profile-photo{
-    height:240px;
+    height:300px;
   }
 }
 
@@ -1017,7 +1053,7 @@ hr{
   }
 
   .profile-photo{
-    height:210px;
+    height:260px;
   }
 
   .project-list-page .project-image-wrap,
