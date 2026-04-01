@@ -87,61 +87,62 @@ Full-stack decisioning application built with Django REST Framework, Angular, an
 - **Credit Card Customer Segmentation** — https://github.com/cherryaugusta/Credit-Card-Customer-Segmentation 
 ## Site Structure 
 ```text 
-/ 
-index.html 
-about.html 
-projects.html 
-cv.html 
-contact.html 
-styles.css 
-script.js 
-README.md 
-assets/ 
-og-preview.jpg 
-screenshots/ 
-lawpulse/ 
-frontend-selected-clause.png 
-frontend-completed-view.png 
-frontend-processing.png 
-frontend-empty-state.png 
-backend-swagger-ui.png 
-backend-admin.png 
-backend-response-headers.png 
-greenops/ 
-frontend-dashboard.png 
-frontend-report-builder.png 
-frontend-multistep-form.png 
-backend-swagger-ui.png 
-backend-admin-carbon-logs.png 
-backend-admin-history.png 
-tradeflow/ 
-frontend-dashboard.png 
-frontend-flash-effect.png 
-backend-swagger.png 
-backend-admin-periodic-task.png 
-docker-healthy-services.png 
-ecoroute/ 
-angular-home-health-compute.png 
-api-docs-swagger.png 
-api-health-json.png 
-docker-compose-running.png 
-verify-tree-passing.png 
-pre-commit-passing.png 
-opssentinel/ 
-frontend-dashboard.png 
-api-docs-browser.png 
-api-health-browser.png 
-policypulse/ 
-frontend-home.png 
-api-redoc-browser.png 
-api-health-browser.png 
-fincrime-graphops/ 
-frontend-home.png 
-api-docs-browser.png 
-api-health-browser.png 
-londonplan-rag/ 
-angular-health-page.png 
-swagger-ui.png 
+/
+index.html
+about.html
+projects.html
+cv.html
+contact.html
+styles.css
+script.js
+README.md
+LICENSE
+assets/
+  og-preview.jpg
+screenshots/
+  lawpulse/
+    frontend-selected-clause.png
+    frontend-completed-view.png
+    frontend-processing.png
+    frontend-empty-state.png
+    backend-swagger-ui.png
+    backend-admin.png
+    backend-response-headers.png
+  greenops/
+    frontend-dashboard.png
+    frontend-report-builder.png
+    frontend-multistep-form.png
+    backend-swagger-ui.png
+    backend-admin-carbon-logs.png
+    backend-admin-history.png
+  tradeflow/
+    frontend-dashboard.png
+    frontend-flash-effect.png
+    backend-swagger.png
+    backend-admin-periodic-task.png
+    docker-healthy-services.png
+  ecoroute/
+    angular-home-health-compute.png
+    api-docs-swagger.png
+    api-health-json.png
+    docker-compose-running.png
+    verify-tree-passing.png
+    pre-commit-passing.png
+  opssentinel/
+    frontend-dashboard.png
+    api-docs-browser.png
+    api-health-browser.png
+  policypulse/
+    frontend-home.png
+    api-redoc-browser.png
+    api-health-browser.png
+  fincrime-graphops/
+    frontend-home.png
+    api-docs-browser.png
+    api-health-browser.png
+  londonplan-rag/
+    angular-health-page.png
+    swagger-ui.png 
 ```` 
 ## Primary Screenshots Used on the Website 
 * LawPulse → `screenshots/lawpulse/frontend-selected-clause.png` 
