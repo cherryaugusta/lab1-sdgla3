@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects | Cherry Augusta</title>
-  <meta name="description" content="Software engineering projects by Cherry Augusta, including LawPulse, GreenOps, TradeFlow, EcoRoute LEZ Optimiser, OpsSentinel, PolicyPulse, FinCrime GraphOps, and LondonPlan RAG.">
+  <meta name="description" content="Software engineering projects by Cherry Augusta, including AI workflow systems, backend APIs, full-stack applications, governance platforms, and auditable web applications built with Django, React, Angular, TypeScript, PostgreSQL, Redis, Celery, and Docker.">
   <meta name="theme-color" content="#0b1220">
   <meta property="og:title" content="Projects | Cherry Augusta">
-  <meta property="og:description" content="Selected full-stack and backend projects featuring Django, DRF, Angular, React, TypeScript, PostgreSQL, Redis, Docker, WebSockets, and Celery.">
+  <meta property="og:description" content="Selected backend, full-stack, and AI workflow projects featuring Django, DRF, React, Angular, TypeScript, PostgreSQL, Redis, WebSockets, Celery, evaluation, and auditability.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://cherryaugusta.github.io/developer-portfolio-profile/projects.html">
   <meta property="og:image" content="https://cherryaugusta.github.io/developer-portfolio-profile/assets/og-preview.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Projects | Cherry Augusta">
-  <meta name="twitter:description" content="Selected full-stack and backend projects featuring Django, DRF, Angular, React, TypeScript, PostgreSQL, Redis, Docker, WebSockets, and Celery.">
+  <meta name="twitter:description" content="Selected backend, full-stack, and AI workflow projects featuring Django, DRF, React, Angular, TypeScript, PostgreSQL, Redis, WebSockets, Celery, evaluation, and auditability.">
   <meta name="twitter:image" content="https://cherryaugusta.github.io/developer-portfolio-profile/assets/og-preview.jpg">
   <link rel="canonical" href="https://cherryaugusta.github.io/developer-portfolio-profile/projects.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
@@ -51,7 +51,7 @@
       <div class="container narrow">
         <p class="eyebrow">Projects</p>
         <h1>Selected Projects</h1>
-        <p class="page-lead">A portfolio of full-stack and backend-focused work demonstrating API design, Angular and React frontend delivery, typed integration, Python and SQL-backed development, real-time behaviour, scheduled processing, secure defaults, and reproducible local setup.</p>
+        <p class="page-lead">A portfolio of backend, full-stack, and AI-workflow-focused engineering work demonstrating API design, typed integration, real-time behaviour, asynchronous processing, evaluation, auditability, governance-aware workflows, and reproducible local setup.</p>
       </div>
     </section>
 
@@ -59,25 +59,94 @@
       <div class="container">
         <div class="section-intro">
           <p class="section-kicker">Top tier</p>
-          <h2>Projects most relevant to software engineering roles</h2>
+          <h2>Projects most relevant to software engineering, backend, and AI-platform roles</h2>
         </div>
 
         <div class="project-list project-list-page">
           <article class="project-card project-card-featured project-card-with-image">
             <div class="project-image-wrap project-image-wrap-large">
-              <img src="screenshots/lawpulse/frontend-selected-clause.png" alt="LawPulse contract review interface with selected clause details visible" width="1600" height="900" loading="lazy" decoding="async">
+              <img src="screenshots/consumer-duty-evidence-engine/case-detail-weak-support.png" alt="Consumer Duty Evidence Engine case detail view showing evidence sufficiency assessment and structured case review" width="1600" height="900" loading="lazy" decoding="async">
             </div>
             <div class="project-content">
               <div class="project-meta">
                 <span class="pill">Top project</span>
+                <span class="pill pill-muted">AI Workflow</span>
+                <span class="pill pill-outline">Audit-ready</span>
+              </div>
+              <h2><a href="https://github.com/cherryaugusta/consumer-duty-evidence-engine" target="_blank" rel="noopener noreferrer">Consumer Duty Evidence Engine</a></h2>
+              <p class="stack">Django · DRF · React · TypeScript · PostgreSQL · Redis · Celery · Channels · pgvector</p>
+              <p>AI-assisted evidence review workflow for regulated financial-services artefacts. The system ingests complaints, disclosures, transcripts, scripts, and policy materials; extracts structured claims; maps them to Consumer Duty outcome areas; scores evidence sufficiency; detects contradictions; routes uncertain cases into analyst review; and produces audit-ready outputs with traceable citations, evaluation metrics, and observable workflow state.</p>
+              <ul>
+                <li><strong>Project link:</strong> <a href="https://github.com/cherryaugusta/consumer-duty-evidence-engine" target="_blank" rel="noopener noreferrer">GitHub repository</a></li>
+                <li>Async ingestion and parsing pipeline with Celery, Redis, and WebSocket updates</li>
+                <li>Evidence sufficiency scoring across supported, weak, missing, contradictory, and stale evidence states</li>
+                <li>Human review queues with assignment, approval, escalation, override controls, and audit logging</li>
+                <li>Evaluation harness with regression-style metrics, citation validation, and degraded-mode safeguards</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card project-card-with-image">
+            <div class="project-image-wrap">
+              <img src="screenshots/agentic-compliance-auditor/finding-detail-side-by-side.png" alt="Agentic Compliance Auditor finding detail showing side-by-side contradiction analysis with cited evidence" width="1600" height="900" loading="lazy" decoding="async">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="pill">Top project</span>
+                <span class="pill pill-muted">Rules-first AI</span>
+                <span class="pill pill-outline">Version-aware</span>
+              </div>
+              <h2><a href="https://github.com/cherryaugusta/agentic-compliance-auditor" target="_blank" rel="noopener noreferrer">Agentic Compliance Auditor</a></h2>
+              <p class="stack">Django · DRF · React · TypeScript · PostgreSQL · Redis · Celery · Channels · pgvector</p>
+              <p>Rules-first, AI-assisted policy-control audit workflow for detecting contradictions, drift, and version misalignment across internal policies and external guidance. It ingests policy material, parses sections, extracts normalised control statements, compares versions and source pairs, generates typed findings with citations, routes findings into review tasks, preserves audit lineage, and exposes evaluation and observability outputs through API and UI surfaces.</p>
+              <ul>
+                <li><strong>Project link:</strong> <a href="https://github.com/cherryaugusta/agentic-compliance-auditor" target="_blank" rel="noopener noreferrer">GitHub repository</a></li>
+                <li>Version-aware document ingestion, lineage tracking, section parsing, and statement normalisation</li>
+                <li>Rules-first contradiction and drift detection with typed findings and cited evidence</li>
+                <li>Review-task routing, audit events, replayable runs, and exportable finding packets</li>
+                <li>Evaluation reporting and degraded-mode visibility when prompt or provider support is unavailable</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card project-card-with-image">
+            <div class="project-image-wrap">
+              <img src="screenshots/ai-model-governance-workbench/release-candidate-blocked.png" alt="AI Model Governance Workbench blocked release candidate screen showing evaluation gates and approval controls" width="1600" height="900" loading="lazy" decoding="async">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="pill">Top project</span>
+                <span class="pill pill-muted">Governance platform</span>
+                <span class="pill pill-outline">Control plane</span>
+              </div>
+              <h2><a href="https://github.com/cherryaugusta/ai-model-governance-workbench" target="_blank" rel="noopener noreferrer">AI Model Governance Workbench</a></h2>
+              <p class="stack">Django · DRF · React · TypeScript · PostgreSQL · Redis · Celery · Docker Compose</p>
+              <p>Internal AI governance control plane for managing prompt versions, model configurations, evaluation runs, release candidates, approvals, incidents, rollback, and audit history across AI-enabled product workflows. The platform treats prompts and model configs as governed artefacts, blocks promotion on failed thresholds, requires policy-driven approvals, and preserves rollback paths with full lifecycle evidence.</p>
+              <ul>
+                <li><strong>Project link:</strong> <a href="https://github.com/cherryaugusta/ai-model-governance-workbench" target="_blank" rel="noopener noreferrer">GitHub repository</a></li>
+                <li>Versioned prompt and model artefacts with immutable release candidate snapshots</li>
+                <li>Deterministic evaluation gates, blocked-promotion logic, and risk-tier approval policy</li>
+                <li>Incident workflows linked to active release state and rollback to previously approved releases</li>
+                <li>Audit timeline, operational metrics, and platform-oriented AI lifecycle modelling</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card project-card-with-image">
+            <div class="project-image-wrap">
+              <img src="screenshots/lawpulse/frontend-selected-clause.png" alt="LawPulse contract review interface with selected clause details visible" width="1600" height="900" loading="lazy" decoding="async">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="pill">Featured</span>
                 <span class="pill pill-muted">Full-Stack</span>
                 <span class="pill pill-outline">React + WebSockets</span>
               </div>
-              <h2><a href="https://github.com/cherryaugusta/lawpulse.git" target="_blank" rel="noopener noreferrer">LawPulse</a></h2>
+              <h2><a href="https://github.com/cherryaugusta/lawpulse" target="_blank" rel="noopener noreferrer">LawPulse</a></h2>
               <p class="stack">Django · DRF · Channels · React · TypeScript · Redis · PostgreSQL · Docker Compose</p>
               <p>AI-powered legal document auditor for uploading PDF contracts, extracting risky clauses, and reviewing them in a side-by-side interface.</p>
               <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/lawpulse.git" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/lawpulse" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li>PDF upload and page-level text extraction workflow</li>
                 <li>Live processing updates streamed over WebSockets</li>
                 <li>Strict TypeScript frontend with side-by-side reviewer UI</li>
@@ -96,11 +165,11 @@
                 <span class="pill pill-muted">Full-Stack</span>
                 <span class="pill pill-outline">Audit trail</span>
               </div>
-              <h2><a href="https://github.com/cherryaugusta/greenops-carbon-accounting-platform.git" target="_blank" rel="noopener noreferrer">GreenOps</a></h2>
+              <h2><a href="https://github.com/cherryaugusta/greenops-carbon-accounting-platform" target="_blank" rel="noopener noreferrer">GreenOps</a></h2>
               <p class="stack">Django · DRF · React · TypeScript · PostgreSQL · Redis · JWT · Docker Compose</p>
               <p>Corporate carbon footprint calculator for internal ESG reporting with authenticated workflows, audit history, admin oversight, reporting dashboard, and drag-and-drop reporting.</p>
               <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/greenops-carbon-accounting-platform.git" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/greenops-carbon-accounting-platform" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li>JWT-secured API and manager approval workflow</li>
                 <li>Audit trail with django-simple-history</li>
                 <li>Multi-step validated form with React Hook Form and Zod</li>
@@ -119,11 +188,11 @@
                 <span class="pill pill-muted">Full-Stack</span>
                 <span class="pill pill-outline">Celery</span>
               </div>
-              <h2><a href="https://github.com/cherryaugusta/TradeFlow.git" target="_blank" rel="noopener noreferrer">TradeFlow</a></h2>
+              <h2><a href="https://github.com/cherryaugusta/TradeFlow" target="_blank" rel="noopener noreferrer">TradeFlow</a></h2>
               <p class="stack">Django · DRF · React · TypeScript · Celery · Redis · PostgreSQL · Docker Compose</p>
               <p>Multi-source arbitrage tracker that polls mock exchanges, stores historical snapshots, computes opportunities, and presents results in a React dashboard.</p>
               <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/TradeFlow.git" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/TradeFlow" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li>Scheduled polling with Celery Beat every 5 seconds</li>
                 <li>Historical price snapshots and hourly spread analytics</li>
                 <li>React + TypeScript dashboard with TanStack Table</li>
@@ -142,11 +211,11 @@
                 <span class="pill pill-muted">API + Angular</span>
                 <span class="pill pill-outline">OpenAPI-first</span>
               </div>
-              <h2><a href="https://github.com/cherryaugusta/EcoRoute-LEZ-Optimiser.git" target="_blank" rel="noopener noreferrer">EcoRoute LEZ Optimiser</a></h2>
+              <h2><a href="https://github.com/cherryaugusta/EcoRoute-LEZ-Optimiser" target="_blank" rel="noopener noreferrer">EcoRoute LEZ Optimiser</a></h2>
               <p class="stack">Django · DRF · Angular · TypeScript · PostgreSQL/PostGIS · Redis · Docker</p>
               <p>Routing and compliance project for LEZ and ULEZ-style scenarios with deterministic audit responses, typed contracts, and governance-aware development patterns.</p>
               <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/EcoRoute-LEZ-Optimiser.git" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/EcoRoute-LEZ-Optimiser" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li>Deterministic route-audit compute endpoint</li>
                 <li>Strict Angular integration and OpenAPI-first backend design</li>
                 <li>Correlation ID propagation and dependency auditing</li>
@@ -165,11 +234,11 @@
                 <span class="pill pill-muted">Real-Time</span>
                 <span class="pill pill-outline">Channels + Celery</span>
               </div>
-              <h2><a href="https://github.com/cherryaugusta/OpsSentinel.git" target="_blank" rel="noopener noreferrer">OpsSentinel</a></h2>
+              <h2><a href="https://github.com/cherryaugusta/OpsSentinel" target="_blank" rel="noopener noreferrer">OpsSentinel</a></h2>
               <p class="stack">Django · DRF · Channels · Celery · Angular · PostgreSQL · Redis · Docker Compose</p>
               <p>Real-time anomaly and incident console demonstrating explainable SecOps architecture and event-driven workflows.</p>
               <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/OpsSentinel.git" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/OpsSentinel" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li>Synthetic log event ingestion and anomaly detection</li>
                 <li>Incidents with explainability artefacts</li>
                 <li>WebSocket event flow and periodic evaluation jobs</li>
@@ -188,11 +257,11 @@
                 <span class="pill pill-muted">API + Angular</span>
                 <span class="pill pill-outline">Typed contracts</span>
               </div>
-              <h2><a href="https://github.com/cherryaugusta/policypulse.git" target="_blank" rel="noopener noreferrer">PolicyPulse</a></h2>
+              <h2><a href="https://github.com/cherryaugusta/policypulse" target="_blank" rel="noopener noreferrer">PolicyPulse</a></h2>
               <p class="stack">Django · DRF · Angular · TypeScript · OpenAPI</p>
               <p>Decisioning application with a strong API, typed frontend-backend contracts, health checks, tracing, and governance scaffolding.</p>
               <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/policypulse.git" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/policypulse" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li>Typed decision submission and deterministic review outcome</li>
                 <li>Health endpoint with dependency-aware readiness reporting</li>
                 <li>Correlation ID tracing and DRF documentation</li>
@@ -221,10 +290,10 @@
                 <span class="pill">Supporting</span>
                 <span class="pill pill-muted">Architecture</span>
               </div>
-              <h2><a href="https://github.com/cherryaugusta/fincrime-graphops.git" target="_blank" rel="noopener noreferrer">FinCrime GraphOps</a></h2>
+              <h2><a href="https://github.com/cherryaugusta/fincrime-graphops" target="_blank" rel="noopener noreferrer">FinCrime GraphOps</a></h2>
               <p class="stack">Django · DRF · Angular · TypeScript · PostgreSQL · Redis · Docker</p>
               <p>FinTech architecture project demonstrating secure defaults, typed API contracts, health validation, correlation IDs, and governance scaffolding.</p>
-              <p><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/fincrime-graphops.git" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+              <p><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/fincrime-graphops" target="_blank" rel="noopener noreferrer">GitHub</a></p>
             </div>
           </article>
 
@@ -237,10 +306,10 @@
                 <span class="pill">Supporting</span>
                 <span class="pill pill-muted">Architecture</span>
               </div>
-              <h2><a href="https://github.com/cherryaugusta/londonplan-rag-architecture.git" target="_blank" rel="noopener noreferrer">LondonPlan RAG</a></h2>
+              <h2><a href="https://github.com/cherryaugusta/londonplan-rag-architecture" target="_blank" rel="noopener noreferrer">LondonPlan RAG</a></h2>
               <p class="stack">Django · DRF · Angular · TypeScript · PostgreSQL/PostGIS · Redis</p>
               <p>Educational architecture project showing regulated-style patterns, generated-client preparation, OpenAPI contract locking, and governance-aware implementation.</p>
-              <p><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/londonplan-rag-architecture.git" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+              <p><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/londonplan-rag-architecture" target="_blank" rel="noopener noreferrer">GitHub</a></p>
             </div>
           </article>
 
@@ -295,7 +364,7 @@
             </div>
             <h2><a href="https://github.com/cherryaugusta/Credit-Card-Customer-Segmentation" target="_blank" rel="noopener noreferrer">Credit Card Customer Segmentation</a></h2>
             <p class="stack">Python · Machine Learning · Data Preparation</p>
-            <p>Historical project retained as background evidence, but intentionally de-emphasised relative to current full-stack software engineering work.</p>
+            <p>Historical project retained as background evidence, but intentionally de-emphasised relative to current software engineering and full-stack work.</p>
             <p><strong>Repository:</strong> <a href="https://github.com/cherryaugusta/Credit-Card-Customer-Segmentation" target="_blank" rel="noopener noreferrer">GitHub</a></p>
           </article>
         </div>
@@ -307,7 +376,7 @@
         <div>
           <p class="section-kicker section-kicker-light">CV</p>
           <h2>View the CV for a compact summary of skills, projects, and training</h2>
-          <p>It brings together core skills, selected projects, experience, and training in a format suited to quick review.</p>
+          <p>It brings together backend, full-stack, and AI-workflow strengths in a format suited to quick technical review.</p>
         </div>
         <div class="cta-panel-actions">
           <a class="button button-primary" href="cv.html">View CV</a>
@@ -321,7 +390,7 @@
     <div class="container footer-wrap">
       <div>
         <p class="footer-title">Cherry Augusta</p>
-        <p>Full-stack and backend web application portfolio built with plain HTML, CSS, and JavaScript for GitHub Pages.</p>
+        <p>Backend, full-stack, and AI-workflow portfolio built with plain HTML, CSS, and JavaScript for GitHub Pages.</p>
       </div>
       <div>
         <p><a href="https://github.com/cherryaugusta" target="_blank" rel="noopener noreferrer">GitHub</a></p>
