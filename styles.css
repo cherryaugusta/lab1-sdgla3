@@ -383,6 +383,8 @@ hr{
   backdrop-filter:blur(10px);
   -webkit-backdrop-filter:blur(10px);
   max-width:720px;
+  display:flex;
+  flex-direction:column;
 }
 
 .profile-card-compact{
@@ -431,8 +433,11 @@ hr{
 .profile-caption{
   display:flex;
   flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
   gap:.55rem;
-  margin-top:1rem;
+  margin-top:auto;
+  padding-top:1rem;
 }
 
 .profile-caption span{
@@ -443,6 +448,7 @@ hr{
   color:var(--hero-text);
   font-size:.88rem;
   font-weight:600;
+  text-align:center;
 }
 
 .hero-aside > .profile-card,
@@ -474,8 +480,8 @@ hr{
 
 .hero-core-panel{
   margin-top:0;
-  width:calc(100% - 32px);
-  margin-left:32px;
+  width:calc(100% - 36px);
+  margin-left:36px;
   height:auto;
   min-height:0;
   display:flex;
@@ -549,7 +555,8 @@ hr{
 .tag-list-core li{
   display:flex;
   align-items:center;
-  justify-content:flex-start;
+  justify-content:center;
+  text-align:center;
   min-height:40px;
   padding:.5rem .78rem;
   border-radius:12px;
@@ -570,6 +577,11 @@ hr{
   gap:.8rem;
   flex-wrap:wrap;
   margin-top:1.45rem;
+}
+
+.cta-row{
+  justify-content:center;
+  align-items:center;
 }
 
 .button{
