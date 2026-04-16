@@ -277,6 +277,13 @@ hr{
   color:var(--hero-text);
 }
 
+.hero-title-secondary{
+  display:block;
+  color:var(--hero-title-accent);
+  margin-top:.18em;
+  line-height:1.08;
+}
+
 .hero-copy,
 .hero-aside{
   min-width:0;
@@ -305,20 +312,23 @@ hr{
 }
 
 .hero-aside{
-  display:grid;
-  grid-template-rows:auto auto;
-  gap:1.1rem;
-  align-content:start;
+  min-width:0;
   align-self:start;
-  min-height:auto;
 }
 
-.hero-aside-stack{
+.hero-stack{
+  width:100%;
+  max-width:none;
   display:flex;
   flex-direction:column;
   gap:1.1rem;
-  align-self:start;
+  align-items:stretch;
+}
+
+.hero-stack-card{
   width:100%;
+  max-width:none;
+  margin:0;
 }
 
 .eyebrow,
@@ -465,18 +475,6 @@ hr{
   text-align:center;
 }
 
-.hero-aside > .profile-card,
-.hero-aside > .hero-core-panel,
-.hero-aside > .hero-summary-panel,
-.hero-aside-stack > .profile-card,
-.hero-aside-stack > .hero-core-panel,
-.hero-aside-stack > .hero-summary-panel,
-.hero-stack-card{
-  width:100%;
-  max-width:none;
-  margin:0;
-}
-
 .hero-panel{
   background:rgba(255,255,255,.08);
   border:1px solid rgba(255,255,255,.12);
@@ -500,7 +498,7 @@ hr{
 .hero-summary-panel h2{
   font-size:1.18rem;
   line-height:1.2;
-  margin-bottom:.65rem;
+  margin-bottom:.64rem;
 }
 
 .hero-summary-text{
@@ -510,29 +508,18 @@ hr{
 }
 
 .hero-core-panel{
-  width:100%;
-  margin:0;
-  min-height:0;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  padding:.95rem 1rem;
+  padding:.92rem 1rem .96rem;
 }
 
 .hero-core-panel h2{
   max-width:none;
   font-size:1.08rem;
   line-height:1.18;
-  margin-bottom:.62rem;
+  margin-bottom:.6rem;
 }
 
 .hero-core-panel .panel-label{
-  margin-bottom:.45rem;
-}
-
-.hero-core-panel .tag-list-core{
-  margin-top:0;
-  align-content:start;
+  margin-bottom:.42rem;
 }
 
 .hero .hero-copy p,
@@ -565,7 +552,7 @@ hr{
 .tag-list-core{
   display:grid;
   grid-template-columns:1fr;
-  gap:.42rem;
+  gap:.38rem;
   align-content:start;
 }
 
@@ -582,7 +569,7 @@ hr{
   color:var(--hero-text);
   font-size:.88rem;
   font-weight:600;
-  line-height:1.16;
+  line-height:1.14;
   letter-spacing:-0.01em;
   white-space:normal;
   margin:0;
@@ -1152,25 +1139,25 @@ hr{
     align-items:start;
   }
 
-  .hero-aside,
-  .hero-aside-stack{
-    display:flex;
-    flex-direction:column;
+  .hero-aside{
     align-self:start;
-    min-height:auto;
+  }
+
+  .hero-stack{
+    gap:1rem;
   }
 
   .hero-summary-panel{
     padding:1rem;
   }
 
+  .hero-core-panel{
+    padding:1rem;
+  }
+
   .hero-summary-panel h2,
   .hero-core-panel h2{
     font-size:1.12rem;
-  }
-
-  .hero-core-panel{
-    padding:1rem;
   }
 
   .tag-list-core li{
