@@ -1,8 +1,8 @@
 # Cherry Augusta | Software Engineer Portfolio
 
-This repository contains my static GitHub Pages portfolio website.
+This repository contains my GitHub Pages portfolio website.
 
-It presents the project work most relevant to **Software Engineer**, **Backend Engineer**, **Full-Stack Engineer**, **Python Developer**, and **AI Platform Engineer** roles, with the strongest emphasis on:
+It presents project work most relevant to **Software Engineer**, **Backend Engineer**, **Full-Stack Engineer**, **Python Developer**, and **AI Platform Engineer** roles, with the strongest emphasis on:
 
 - backend systems
 - workflow-heavy product design
@@ -30,8 +30,6 @@ The strongest projects in this portfolio are workflow-heavy systems rather than 
 - approval flows and review routing
 - audit trails and evaluation runs
 - production-minded documentation and local reproducibility
-
-This remains stronger than a generic AI-engineer pitch because the evidence is more concrete around workflow systems, reviewability, governance-oriented application design, and operational clarity.
 
 ## Additional information
 
@@ -104,7 +102,7 @@ developer-portfolio-profile/
     ├── lawpulse/
     ├── greenops/
     └── tradeflow/
-```
+````
 
 ## Design and implementation notes
 
@@ -147,7 +145,7 @@ screenshots/
     └── frontend-dashboard.png
 ```
 
-Optional future screenshot folders can be added later for other projects if they become referenced by the site.
+Additional screenshot folders can be added later if they become part of the site.
 
 ## Accessibility and readability
 
@@ -163,12 +161,10 @@ The site is structured to support:
 
 ## Contact strategy
 
-The default contact path intentionally uses:
+The main contact routes are:
 
 * direct email
 * LinkedIn
-
-Hosted forms are not used by default because the goal is a genuinely zero-cost, GitHub Pages-compatible contact flow.
 
 ## Local preview
 
