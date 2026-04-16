@@ -62,6 +62,8 @@ These projects add further evidence across frontend architecture, full-stack wor
 - [TradeFlow](https://github.com/cherryaugusta/TradeFlow)
 - [Gmail MCP Server](https://github.com/cherryaugusta/gmail-mcp-server)
 
+The Gmail MCP Server card on the Projects page uses a composite of five local screenshots showing Gmail API enablement, OAuth client configuration, Claude Desktop configuration, smoke-test verification, and local MCP server startup.
+
 ### Angular and contract-aware projects
 
 These repositories show Angular, TypeScript, Django, OpenAPI-aware integration, and reproducible local execution as part of the wider portfolio.
@@ -135,6 +137,10 @@ developer-portfolio-profile/
     ├── greenops/
     ├── tradeflow/
     └── gmail-mcp-server/
+        ├── google-cloud-gmail-api-enabled.png
+        ├── google-oauth-client-config.png
+        ├── claude-desktop-config.png
+        ├── smoke-test-success.png
         └── mcp-server-running.png
 ```
 

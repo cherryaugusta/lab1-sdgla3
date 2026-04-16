@@ -792,6 +792,41 @@ hr{
   aspect-ratio:16 / 8.5;
 }
 
+.project-image-wrap-composite{
+  aspect-ratio:auto;
+  min-height:430px;
+  padding:.75rem;
+  background:linear-gradient(180deg, #edf3ff, #dfe8f7);
+}
+
+.project-image-composite-grid{
+  display:grid;
+  grid-template-columns:1.45fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  gap:.75rem;
+  height:100%;
+}
+
+.project-image-tile{
+  overflow:hidden;
+  border-radius:16px;
+  border:1px solid var(--line);
+  background:#ffffff;
+  box-shadow:var(--shadow-xs);
+}
+
+.project-image-tile-main{
+  grid-column:1;
+  grid-row:1 / span 2;
+}
+
+.project-image-tile img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:top center;
+}
+
 .project-list-page .project-image-wrap,
 .project-list-page .project-image-wrap-large{
   aspect-ratio:16 / 7;
@@ -924,19 +959,51 @@ hr{
 
 .contact-layout{
   display:grid;
-  grid-template-columns:minmax(0,1.12fr) minmax(320px,.88fr);
+  grid-template-columns:minmax(0,1.16fr) minmax(320px,.84fr);
   gap:1.25rem;
   align-items:start;
 }
 
 .contact-side-column{
   display:grid;
-  gap:1.25rem;
+  gap:1.1rem;
   align-content:start;
 }
 
 .contact-primary-card{
   padding:1.65rem;
+}
+
+.contact-primary-extras{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1rem;
+  margin-top:1.25rem;
+}
+
+.contact-subpanel{
+  background:linear-gradient(180deg, rgba(220,232,255,.24), rgba(255,255,255,.92));
+  border:1px solid rgba(191,210,246,.72);
+  border-radius:16px;
+  padding:1rem;
+  box-shadow:var(--shadow-xs);
+}
+
+.contact-subpanel-label{
+  margin:0 0 .4rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-size:.76rem;
+  font-weight:800;
+  color:var(--primary-strong);
+}
+
+.contact-subpanel h3{
+  margin-bottom:.7rem;
+}
+
+.contact-links-list li{
+  margin:.45rem 0;
 }
 
 .contact-action-card{
@@ -1019,7 +1086,7 @@ hr{
   display:flex;
   flex-wrap:wrap;
   gap:.62rem;
-  margin-top:1.2rem;
+  margin-top:0;
 }
 
 .contact-tag-list li{
@@ -1059,6 +1126,10 @@ hr{
 
 .contact-preferences-card{
   width:100%;
+}
+
+.contact-cta-section{
+  padding-top:.6rem;
 }
 
 .cta-panel{
@@ -1150,6 +1221,10 @@ hr{
   .tag-list-core li{
     font-size:.86rem;
   }
+
+  .project-image-wrap-composite{
+    min-height:380px;
+  }
 }
 
 @media (max-width:1024px){
@@ -1217,7 +1292,12 @@ hr{
     min-height:400px;
   }
 
-  .contact-facts{
+  .project-image-wrap-composite{
+    min-height:360px;
+  }
+
+  .contact-facts,
+  .contact-primary-extras{
     grid-template-columns:1fr;
   }
 }
@@ -1296,6 +1376,23 @@ hr{
     min-height:300px;
   }
 
+  .project-image-wrap-composite{
+    min-height:320px;
+    padding:.6rem;
+  }
+
+  .project-image-composite-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    grid-template-rows:auto;
+    gap:.6rem;
+  }
+
+  .project-image-tile-main{
+    grid-column:1 / -1;
+    grid-row:auto;
+    min-height:170px;
+  }
+
   .profile-card{
     max-width:100%;
   }
@@ -1319,6 +1416,10 @@ hr{
 
   .contact-secondary-card{
     padding:1.15rem;
+  }
+
+  .contact-subpanel{
+    padding:.9rem;
   }
 }
 
@@ -1378,6 +1479,11 @@ hr{
   .project-list-page .project-image-wrap-large{
     aspect-ratio:16 / 9;
     min-height:230px;
+  }
+
+  .project-image-wrap-composite{
+    min-height:280px;
+    padding:.5rem;
   }
 
   .contact-fact{
